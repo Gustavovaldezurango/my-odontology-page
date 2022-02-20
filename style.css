@@ -55,4 +55,71 @@ aside{
     color: #ffffff;
 }
 
+#tercera-caja{
+    
+    
+    padding: 100px;
+    
+    
+   height: 1800px;
+   
+  
+}
+
+#ortodoncia{
+    width: 600px;
+   
+    
+    height:  300px;
  
+
+}
+
+#image1{
+    
+    height: 300px;
+    width: 400px;
+    position: relative;
+      left:  700px;
+      bottom: 200px;
+  
+
+
+ }
+
+ 
+
+ #tradicional{
+  
+    width: 600px;
+    height: 300px;
+ }
+ #image2{
+      
+    height: 300px;
+    width: 400px;
+    position: relative;
+    left:  700px;
+    bottom: 200px;
+  
+
+
+ }
+ #lingual{
+    
+
+                                    
+    width: 600px;
+    height: 300px;
+ }
+ #image3{
+    
+    height: 300px;
+    width: 400px;
+    position: relative;
+    left:  700px;
+    bottom: 200px;
+  
+
+
+ }
