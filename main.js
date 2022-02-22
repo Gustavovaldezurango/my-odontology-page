@@ -13,11 +13,11 @@ window.addEventListener("load", function () {
 
 
         document.slider.src = imagenes[indiceImagenes];
-        if (indiceImagenes < 2) {
+        if (indiceImagenes < 4) {
             indiceImagenes++;
         } else {
             indiceImagenes = 0;
         }
     }
-    this.setInterval(cambiarImagenes, 10000)
+    this.setInterval(cambiarImagenes, 5000)
 });
