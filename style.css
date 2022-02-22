@@ -54,72 +54,52 @@ aside{
 .footer-div{
     color: #ffffff;
 }
-
-#tercera-caja{
-    border: 1px solid red;
+.flex-container{
     display: flex;
-    flex-wrap: nowrap;
-    height: 400px;
-    align-items: center;
-    align-content:space-around ;
-}
-
-#tercera-caja div{
-    border: 1px solid blue;
-    width: 600px;
-    height:  300px;
-    margin: 50px;
-
-
-}
-
-#cuarta-caja{
-    border: 1px solid red;
-    display: flex;
-    flex-wrap: nowrap;
-    height: 400px;
-    align-items: center;
-    align-content:space-around ;
-
-}
-#cuarta-caja div{
-    border: 1px solid blue;
-    width: 600px;
-    height:  300px;
-    margin: 50px;
-
-
-}
-#quinta-caja{
-    border: 1px solid red;
-    display: flex;
-    flex-wrap: nowrap;
-    height: 400px;
-    align-items: center;
-    align-content:space-around ;
-}
-#quinta-caja div{
-    border: 1px solid blue;
-    width: 600px;
-    height:  300px;
-    margin: 50px;
-    align-items: center;
-    align-content:space-around ;
-
-
-}
-
-
-
-
- 
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    padding:  10px;
     
-  
+}
 
-
- 
-
- @media (max-width: 400px) {
-
+.flex-container div{
     
-  }
+    width: 500px;
+    height: 320px;
+    text-align: center;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    position: relative;
+}
+h6{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    
+    
+}
+#image1{
+    width: 480px;
+    height: 290px;
+}
+
+#image2{
+    width: 480px;
+    height: 290px;
+
+}
+nav{
+    text-align: left;
+}
+
+#image3{
+    width: 480px;
+    height: 290px;
+
+}
