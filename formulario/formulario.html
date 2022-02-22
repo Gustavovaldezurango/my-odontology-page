@@ -41,50 +41,50 @@
         <p>Agendar tu cita con nosotros nunca ha podido ser tan fácil, hazlo ahora y te atenderemos. </p>
       </div>
       <article id="formulario">
-        <form>
+        <form action="respuesta.php" method="post">
           <div class="form-row">
             <div class="col">
               <label for="">Primer Nombre:</label>
-              <input type="text" class="form-control" name="">
+              <input type="text" class="form-control" name="Nombre1">
             </div>
             <div class="col">
               <label for="">Segundo Nombre</label>
-              <input type="text" class="form-control" name="">
+              <input type="text" class="form-control" name="Nombre2">
             </div>
           </div>
           <div class="form-row">
             <div class="col">
               <label for="">Primer Apellido:</label>
-              <input type="text" class="form-control" name="">
+              <input type="text" class="form-control" name="Apellido1">
             </div>
             <div class="col">
               <label for="">Segundo Apellido</label>
-              <input type="text" class="form-control" name="">
+              <input type="text" class="form-control" name="Apellido2">
             </div>
           </div>
           <br>
           <div class="form-row">
             <div class="col">
               <label for="">Telefono:</label>
-              <input type="text" class="form-control" placeholder="3012345678" name="">
+              <input type="text" class="form-control" placeholder="+573012345678" name="Telefono">
             </div>
             <div class="col">
               <label for="">Correo:</label>
-              <input type="text" class="form-control" placeholder="odontologia@gmail.com" name="">
+              <input type="text" class="form-control" placeholder="odontologia@gmail.com" name="Correo">
             </div>
           </div>
           <br>
           <div class="form-row">
             <div class="col">
               <label for="">Fecha De Nacimiento:</label>
-              <input type="date" class="form-control" name="">
+              <input type="date" class="form-control" name="Fecha">
             </div>
             <div class="col">
               <label for="">Genero:</label>
-              <select class="form-control" id="exampleFormControlSelect1" name="">
-                <option value=""></option>
-                <option value="M">Masculino</option>
-                <option value="F">Femenino</option>
+              <select class="form-control" id="exampleFormControlSelect1" name="Genero">
+                <option value="Vacio"></option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
               </select>
               <div>
               </div>
