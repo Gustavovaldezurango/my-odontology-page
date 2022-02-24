@@ -26,25 +26,6 @@ footer{
     justify-content: space-between ;
 }
 
-section{
-    height: 375px;
-    width: 500px;
-}
-
-#segunda-caja{
-    background: url(fondoMain.jpg);
-    background-size: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-aside{
-    width: 300px;
-    height: 70px;
-    font-size: 30px;
-}
 
 #albun{
     width: 100%;
@@ -54,72 +35,102 @@ aside{
 .footer-div{
     color: #ffffff;
 }
-
-#tercera-caja{
+.flex-container{
+    background-color: #d7ffff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:  10px;
     
-    
-    padding: 100px;
-    
-    
-   height: 1800px;
-   
-  
 }
 
-#ortodoncia{
-    width: 600px;
-   
+.flex-container div{
     
-    height:  300px;
- 
-
+    width: 500px;
+    height: 320px;
+    text-align: center;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    position: relative;
 }
-
+h6{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
 #image1{
-    
-    height: 300px;
-    width: 400px;
-    position: relative;
-      left:  700px;
-      bottom: 200px;
-  
+    border-radius: 20px;
+    width: 480px;
+    height: 290px;
+}
+
+#image2{
+    border-radius: 20px;
+    width: 480px;
+    height: 290px;
+
+}
+nav{
+    color: rgb(27, 100, 211);
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#image3{
+    border-radius: 20px;
+    width: 480px;
+    height: 290px;
+
+}
+
+.padre{
+    background: url(fondoMain.jpg);
+    background-size: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:  50px;
+
+}
 
 
- }
-
- 
-
- #tradicional{
-  
+#slider{
+    height: 400px;
     width: 600px;
+    
+}
+#lin{
+    
+    font-size: 35px;
+    width: 400px;
     height: 300px;
- }
- #image2{
-      
+    text-align: center;
+    padding: 100px;
+}
+
+@media (min-width:300px) {
+    #lin{
+        margin-top: 5px;
+        font-size: 15px;
+        width: 300px;
+        height: 100px;
+        text-align: center;
+        padding: 10px;
+    }
+    
+#slider{
     height: 300px;
     width: 400px;
-    position: relative;
-    left:  700px;
-    bottom: 200px;
-  
-
-
- }
- #lingual{
     
-
-                                    
-    width: 600px;
-    height: 300px;
- }
- #image3{
+}
     
-    height: 300px;
-    width: 400px;
-    position: relative;
-    left:  700px;
-    bottom: 200px;
-  
-
-
- }
+    }
