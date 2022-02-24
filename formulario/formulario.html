@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap"
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/594d98509e.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="../icons/logo (2).ico">
   <title>Realiza tu cita AHORA!!!</title>
 </head>
 
@@ -45,47 +46,60 @@
           <div class="form-row">
             <div class="col">
               <label for="">Primer Nombre:</label>
+
+              <input type="text" class="form-control" name="Nombre1" minlength="3" spellcheck="true" pattern="[A-Z][^A-Z]+" required  >
+              
+
               <input type="text" class="form-control" name="Nombre1" required >
+
             </div>
             <div class="col">
               <label for="">Segundo Nombre</label>
-              <input type="text" class="form-control" name="Nombre2">
+              <input type="text" class="form-control" name="Nombre2" minlength="3" spellcheck="true" pattern="[A-Z][^A-Z]+">
             </div>
           </div>
           <div class="form-row">
             <div class="col">
               <label for="">Primer Apellido:</label>
-              <input type="text" class="form-control" name="Apellido1">
+              <input type="text" class="form-control" name="Apellido1" minlength="4" spellcheck="true" pattern="[A-Z][^A-Z]+" required>
             </div>
             <div class="col">
               <label for="">Segundo Apellido</label>
-              <input type="text" class="form-control" name="Apellido2">
+              <input type="text" class="form-control" name="Apellido2" minlength="4" spellcheck="true" pattern="[A-Z][^A-Z]+">
             </div>
           </div>
           <br>
           <div class="form-row">
             <div class="col">
               <label for="">Telefono:</label>
-              <input type="text" class="form-control" placeholder="+573012345678" name="Telefono">
+              <input type="text" class="form-control" placeholder="+57 3012345678" name="Telefono" minlength="10" required pattern="[0-9]+" required>
             </div>
             <div class="col">
               <label for="">Correo:</label>
-              <input type="text" class="form-control" placeholder="odontologia@gmail.com" name="Correo">
+              <input type="email" class="form-control" placeholder="odontologia@ejemplo.com" name="Correo" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required>
             </div>
           </div>
           <br>
           <div class="form-row">
             <div class="col">
               <label for="">Fecha De Nacimiento:</label>
-              <input type="date" class="form-control" name="Fecha">
+              <input type="date" class="form-control" name="Fecha" required>
             </div>
             <div class="col">
               <label for="">Genero:</label>
               <select class="form-control" id="exampleFormControlSelect1" name="Genero">
+
+                <option value="Indefinido">Elegir</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Otro">Otro</option>
+                <option value="No Especificar">No Especificar</option>
+
                 <option value="selecionar">seleccionar</option>
                 <option value="Masculino">Masculino</option>
                 <option value="Femenino">Femenino</option>
                 <option value="otro">otro</option>
+                
               </select>
               <div>
               </div>
